@@ -1,4 +1,4 @@
-const inputSlider = document.querySelector("[data-lenghtSlider]");
+const inputSlider = document.querySelector("[data-lengthSlider]");
 const lengthDisplay = document.querySelector("[data-lengthNumber]");
 const passwordDisplay = document.querySelector("[data-passwordDisplay]");
 const copyBtn = document.querySelector("[data-copy]");
@@ -49,7 +49,7 @@ function generateUpperCase() {
 }
 
 function generateSymbol() {
-  const randomInteger = getRandomInteger(0, symbols.length + 1);
+  const randomInteger = getRandomInteger(0, symbols.length);
   return symbols[randomInteger];
 }
 
